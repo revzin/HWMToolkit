@@ -1,0 +1,1248 @@
+<!-- dmx encoding keyvalues2 1 format model 1 -->
+"DmElement"
+{
+	"id" "elementid" "37676052-2375-1b4b-9957-c254f70f3c46"
+	"name" "string" "root"
+	"skeleton" "element" "3489f88a-a50b-134b-be20-f59aea05e27a"
+	"model" "element" "3489f88a-a50b-134b-be20-f59aea05e27a"
+	"combinationOperator" "DmeCombinationOperator"
+	{
+		"id" "elementid" "868584d5-ca49-d744-bfcc-2d2462ebb43d"
+		"name" "string" "combinationOperator"
+		"controls" "element_array" 
+		[
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "b79f5b13-07fb-4140-b144-502615a31b3b"
+				"name" "string" "CloseLid"
+				"rawControlNames" "string_array" 
+				[
+                    "CloseLidLo",
+					"CloseLidUp"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "1"
+				"wrinkleScales" "float_array" 
+				[
+					"0",
+					"0"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "2e222e16-ee9c-cf4e-b118-2b6e84f1a6fb"
+				"name" "string" "InnerSquint"
+				"rawControlNames" "string_array" 
+				[
+					"InnerSquint"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"-2"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "4c4b3440-d611-da4a-beeb-90877351fb02"
+				"name" "string" "OuterSquint"
+				"rawControlNames" "string_array" 
+				[
+					"OuterSquint"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"-2"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "0abfc652-8d61-8fae-9f59-afb8736af1fc"
+				"name" "string" "BrowInV"
+				"rawControlNames" "string_array" 
+				[
+					"WrinkleNose",
+					"RaiseBrowIn"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"-0.6999999881",
+					"2"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "76d0d44a-23f6-7c42-836a-50cc70d54cd3"
+				"name" "string" "BrowOutV"
+				"rawControlNames" "string_array" 
+				[
+					"BrowOutV"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0.75"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "b5081e46-229c-7c46-b1b0-9f76aab02a65"
+				"name" "string" "Frown"
+				"rawControlNames" "string_array" 
+				[
+					"Frown"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"-1"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "9bf6ff1b-8389-2042-a17c-a40b06f65341"
+				"name" "string" "NoseV"
+				"rawControlNames" "string_array" 
+				[
+					"PressNose",
+					"SneerNose"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"1",
+					"-2"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "8b043892-0cd1-3b4c-9053-04dd67440fee"
+				"name" "string" "NostrilFlare"
+				"rawControlNames" "string_array" 
+				[
+					"SuckNostril",
+					"BlowNostril"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0",
+					"0"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "0c88bc1b-b808-684f-9bad-41025e704060"
+				"name" "string" "CheekV"
+				"rawControlNames" "string_array" 
+				[
+					"CheekV"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"-1"
+				]
+			},
+            
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "41285334-358f-f349-b03f-46ac4e0e4a62"
+				"name" "string" "CheekH"
+				"rawControlNames" "string_array" 
+				[
+					"DeflateCheek",
+					"InflateCheek"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0",
+					"0"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "8dd7785d-06f4-e34b-aabc-428f865f8d64"
+				"name" "string" "JawD"
+				"rawControlNames" "string_array" 
+				[
+					"SuckJaw",
+					"JutJaw"
+				]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0",
+					"0"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "7ffd2d7d-281a-5146-9d1c-7529e1f8ba85"
+				"name" "string" "JawH"
+				"rawControlNames" "string_array" 
+				[
+					"SlideJawR",
+					"SlideJawL"
+				]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0",
+					"0"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "d1abd9a2-1a06-f747-8a00-ba55a38fdb89"
+				"name" "string" "JawV"
+				"rawControlNames" "string_array" 
+				[
+					"ClenchJaw",
+					"OpenJaw"
+				]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0",
+					"1"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "13f291b8-2a21-dc44-8267-ccb35fdabe06"
+				"name" "string" "LipsV"
+				"rawControlNames" "string_array" 
+				[
+					"CompressLips",
+					"OpenLips"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0",
+					"0"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "fd31aaf3-f343-1f44-9ec0-3a9b4fda1d36"
+				"name" "string" "LipUpV"
+				"rawControlNames" "string_array" 
+				[
+					"JutUpperLip",
+					"OpenUpperLip"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0",
+					"0"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "e77ab860-e871-6c4e-881a-f1bedf4fc18e"
+				"name" "string" "LipLoV"
+				"rawControlNames" "string_array" 
+				[
+					"RaiseChin",
+					"OpenLowerLip"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"-0.75",
+					"0"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "2f96be1a-73c9-1c40-af37-7fcc1d2c21aa"
+				"name" "string" "Smile"
+				"rawControlNames" "string_array" 
+				[
+					"SmileFlat",
+					"SmileFull",
+					"SmileSharp"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"1",
+					"1",
+					"1"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "88604ac0-5420-4646-a507-c296500e7973"
+				"name" "string" "Platysmus"
+				"rawControlNames" "string_array" 
+				[
+					"Platysmus"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"2"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "542cc6f1-bfee-9845-a661-37da48f03ed0"
+				"name" "string" "FoldLipUp"
+				"rawControlNames" "string_array" 
+				[
+					"SuckLipUp",
+					"FunnelLipUp"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0",
+					"-0.75"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "8c21b310-7c3a-9141-9bb2-54ed949801e2"
+				"name" "string" "FoldLipLo"
+				"rawControlNames" "string_array" 
+				[
+					"SuckLipLo",
+					"FunnelLipLo"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0",
+					"-0.5"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "0d13b5e5-d256-3240-b730-74125453cc5a"
+				"name" "string" "PuckerLipUp"
+				"rawControlNames" "string_array" 
+				[
+					"PuckerLipUp"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"-2"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "1c7244b9-2763-e24e-8d4e-3b5e4b8dadac"
+				"name" "string" "PuckerLipLo"
+				"rawControlNames" "string_array" 
+				[
+					"PuckerLipLo"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"-1"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "b735b61c-6e68-d94a-a750-dbd345d767ef"
+				"name" "string" "LipCnrTwst"
+				"rawControlNames" "string_array" 
+				[
+					"LipCnrTwst"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "f43ca4c4-f574-7043-b140-3138399678bc"
+				"name" "string" "Dimple"
+				"rawControlNames" "string_array" 
+				[
+					"Dimple"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"-2"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "63d713be-b983-5a4e-9a26-f2578deadf90"
+				"name" "string" "PuffLipUp"
+				"rawControlNames" "string_array" 
+				[
+					"PuffLipUp"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "b0331801-026c-0540-98da-857095989caa"
+				"name" "string" "PuffLipLo"
+				"rawControlNames" "string_array" 
+				[
+					"PuffLipLo"
+				]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"0"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "dd4b155f-affe-6445-8730-6d27f5d476a1"
+				"name" "string" "TongueV"
+				"rawControlNames" "string_array" 
+				[
+					"TongueV"
+				]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"2"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "5e574b68-b157-3f42-9816-070c1d3a23a0"
+				"name" "string" "TongueH"
+				"rawControlNames" "string_array" 
+				[
+					"TongueRight",
+					"TongueLeft"
+				]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"2",
+					"2"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "ca484188-409e-ff4f-b65a-bf1370ceea09"
+				"name" "string" "TongueCurl"
+				"rawControlNames" "string_array" 
+				[
+					"TongueCurlDown",
+					"TongueCurlUp"
+				]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"2",
+					"2"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "e5faa74d-e594-5a41-b702-9c56efaa7d55"
+				"name" "string" "TongueD"
+				"rawControlNames" "string_array" 
+				[
+					"TongueOut",
+					"TongueBack"
+				]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"2",
+					"2"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "8ebff3b4-3f7e-3c46-985e-422adc3b9166"
+				"name" "string" "TongueFunnel"
+				"rawControlNames" "string_array" 
+				[
+					"TongueFunnel"
+				]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"2"
+				]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "88594ccd-99ce-7148-bc10-507844bdb1ae"
+				"name" "string" "TongueWidth"
+				"rawControlNames" "string_array" 
+				[
+					"TongueNarrow",
+					"TongueWide"
+				]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"wrinkleScales" "float_array" 
+				[
+					"2",
+					"2"
+				]
+			}
+		]
+		"controlValues" "vector3_array" 
+		[
+			"0.0 0.0 0.0",
+			"0 0.0 0.0",
+			"0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0 0.0 0.0",
+			"0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0 0.0 0.0",
+			"0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0 0.0 0.0",
+			"0 0.0 0.0",
+			"0 0.0 0.0",
+			"0 0.0 0.0",
+			"0 0.0 0.0",
+			"0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0.0 0.0 0.0",
+			"0 0.0 0.0",
+			"0.0 0.0 0.0",
+            "0.0 0.0 0.0"
+		]
+		"controlValuesLagged" "vector3_array" 
+		[
+			"0.0 0.0 0.5",
+			"0 0.5 0.5",
+			"0 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0 0.5 0.5",
+			"0 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0 0.5 0.5",
+			"0 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0 0.5 0.5",
+			"0 0.5 0.5",
+			"0 0.5 0.5",
+			"0 0.5 0.5",
+			"0 0.5 0.5",
+			"0 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0.5 0.5 0.5",
+			"0 0.5 0.5",
+			"0.5 0.5 0.5",
+            "0.5 0.5 0.5"
+		]
+		"usesLaggedValues" "bool" "0"
+		"dominators" "element_array" 
+		[
+            "DmeCombinationDominationRule"
+			{
+				"id" "elementid" "af94ce55-dcdd-de40-9fd9-607ba66e4751"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"RaiseBrowIn"
+				]
+				"suppressed" "string_array" 
+				[
+					"WrinkleNose", "EyesWideOpen"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "ab961fe8-2ea7-5c46-a671-d7ccc5716814"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"Platysmus"
+				]
+				"suppressed" "string_array" 
+				[
+					"FunnelLipLo", "FunnelLipUp", "LipCnrTwst"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "eaac4df5-9de8-ca4e-8af1-7bdfd19da625"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenLowerLip",
+					"OpenUpperLip"
+				]
+				"suppressed" "string_array" 
+				[
+					"OpenLips"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "9fe6bdf9-5790-c445-b78c-53068b7a6d4f"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenUpperLip"
+				]
+				"suppressed" "string_array" 
+				[
+					"FunnelLipUp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "e56dcb46-06f1-3942-bd3c-998e44cd4af7"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenLowerLip"
+				]
+				"suppressed" "string_array" 
+				[
+					"FunnelLipLo"
+				]
+			},
+            "DmeCombinationDominationRule"
+			{
+				"id" "elementid" "6579bbd8-fa79-4a44-a1a4-a9fedbb14eff"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenLips"," OpenLowerLip", "OpenUpperLip"
+				]
+				"suppressed" "string_array" 
+				[
+					"CompressLips"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "5fb524c9-e6e3-5f4a-a820-f7f22179bf3b"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipLo",
+					"OpenJaw"
+				]
+				"suppressed" "string_array" 
+				[
+					"FunnelLipLo"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "2c6e342e-4fbc-d246-96b7-3447c27bf74d"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipUp",
+					"OpenJaw"
+				]
+				"suppressed" "string_array" 
+				[
+					"FunnelLipUp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "d94d6712-661c-7d4f-a2c6-7eee5a8922fa"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"Platysmus"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuckerLipLo", "PuckerLipUp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "f678586d-e838-f34f-a07b-50ccc86f9dd3"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipLo"
+				]
+				"suppressed" "string_array" 
+				[
+					"SuckLipLo"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "e44a0aff-89d7-d04b-9347-ab6010955d64"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipUp"
+				]
+				"suppressed" "string_array" 
+				[
+					"SuckLipUp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "7198c428-112a-de44-9ead-267c5ed7085a"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipLo"
+				]
+				"suppressed" "string_array" 
+				[
+					"SmileFull"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "b4bbda75-15c0-a940-834c-6f62a45d4655"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipUp"
+				]
+				"suppressed" "string_array" 
+				[
+					"SmileFull"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "ec1528d7-3432-9b40-87ee-d04114a569df"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipLo"
+				]
+				"suppressed" "string_array" 
+				[
+					"SmileSharp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "86e5800b-63e4-314d-bf5a-5b28b1d62a73"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipUp"
+				]
+				"suppressed" "string_array" 
+				[
+					"SmileSharp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "17eb17dc-295b-cf43-bd37-e99a234e7e2d"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipLo"
+				]
+				"suppressed" "string_array" 
+				[
+					"SmileFlat"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "10453c60-493d-5142-ba36-8bb7f330df5a"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipUp"
+				]
+				"suppressed" "string_array" 
+				[
+					"SmileFlat"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "fd59c005-7aa0-a34a-9644-62235833ecbf"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"LipCnrTwst"
+				]
+				"suppressed" "string_array" 
+				[
+					"Dimple"
+				]
+			},
+            "DmeCombinationDominationRule"
+			{
+				"id" "elementid" "7494ca1c-4666-2a4d-b724-a38d5db1cd7f"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"SmileFull"
+				]
+				"suppressed" "string_array" 
+				[
+					"SuckLipUp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "5ca684ef-d82e-c14e-b6ec-d0d3e380816a"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenJaw"
+				]
+				"suppressed" "string_array" 
+				[
+					"InflateCheek"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "a186e08f-5c3b-ad44-9ac4-54b6e8432e4a"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"SmileFull"
+				]
+				"suppressed" "string_array" 
+				[
+					"InflateCheek"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "dac6f36b-671a-6c43-94f4-4a75884e35e6"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenUpperLip"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipLo"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "1a59f793-25b2-5246-9ad5-11303396f446"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenLowerLip"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipLo"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "ef5ccd69-9a8e-ac45-bd8f-ed420e083918"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenLips"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipLo"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "7bb8e30e-4817-2c41-bf22-7ad0cc802ec1"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"FunnelLipLo"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipLo"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "941c7c22-fcc9-f34e-becd-09f715515d13"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"FunnelLipUp"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipLo"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "5cba36be-d0dc-c242-8379-0743c116d7c2"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenLips"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipUp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "73cdba13-91f3-554a-bb9a-5c8711510abc"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenLowerLip"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipUp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "f8dc0c60-6c69-6f4f-b4dd-63770d742c2a"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenUpperLip"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipUp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "a0c3c748-4d81-3746-90cf-0fa27203bb29"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"FunnelLipLo"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipUp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "4347df37-9f71-a644-a7fc-851f593186e7"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"FunnelLipUp"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipUp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "f4162bd3-7406-f04d-95cd-b3e1971aa319"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipUp"
+				]
+				"suppressed" "string_array" 
+				[
+					"OpenUpperLip"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "a8665a17-a071-504e-a077-4b082998fe29"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipLo"
+				]
+				"suppressed" "string_array" 
+				[
+					"OpenLowerLip"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "eea10e85-081d-6849-9886-ff89dc4e1366"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenLips"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuckerLipUp",
+					"RaiseChin"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "a1a9e14c-0420-a846-9084-9a53f04e242e"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenLips"
+				]
+				"suppressed" "string_array" 
+				[
+					"InflateCheek"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "89f8115c-b8d5-fd4c-a97c-7c2bc6926c61"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenLowerLip"
+				]
+				"suppressed" "string_array" 
+				[
+					"InflateCheek"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "8cc1faed-3352-5142-93c6-6e2c9e60735e"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenUpperLip"
+				]
+				"suppressed" "string_array" 
+				[
+					"InflateCheek"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "aa3e98c1-8469-c14c-8f09-c9a8a8780f6a"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"OpenJaw"
+				]
+				"suppressed" "string_array" 
+				[
+					"Dimple"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "a2f8d089-dbf6-ab42-85a2-36b219d4d805"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipUp",
+					"RaiseChin"
+				]
+				"suppressed" "string_array" 
+				[
+					"JutUpperLip"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "d152d54e-ad26-a041-963c-116294a02718"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipUp",
+					"RaiseChin"
+				]
+				"suppressed" "string_array" 
+				[
+					"CompressLips"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "275147bf-6637-3a40-9baa-d1a1b18c6a10"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"PuckerLipLo"
+				]
+				"suppressed" "string_array" 
+				[
+					"RaiseChin"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "d679896e-edd7-9743-a2f6-de7db7e6b2a0"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"SmileFlat"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipLo"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "9cc87d77-0e41-a240-b628-a91eafea719a"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"SmileFull"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipLo"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "1f4391b1-168e-554e-afe2-b92d07324749"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"SmileSharp"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipLo"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "6c1c7819-289a-304a-b0e2-1a5f913bbb34"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"SmileFlat"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipUp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "11f136f7-0316-f64b-a212-a77a7f6f1291"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"SmileFull"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipUp"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "8c56fc8a-f078-fe42-8b43-47275db12b2b"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"SmileSharp"
+				]
+				"suppressed" "string_array" 
+				[
+					"PuffLipUp"
+				]
+			},
+            "DmeCombinationDominationRule"
+			{
+				"id" "elementid" "f135a3a3-f178-fe43-8b43-47275db12b21"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"JutUpperLip", "RaiseChin"
+				]
+				"suppressed" "string_array" 
+				[
+					"CompressLips"
+				]
+			}
+		]
+		"targets" "element_array" 
+		[
+			"element" "ed35f3a2-5b7c-7243-a799-f72df8411255"
+		]
+	}
+	
+}
