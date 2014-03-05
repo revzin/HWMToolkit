@@ -215,14 +215,14 @@ def CheckForRedundantCorrectives(mesh):
         if (GetShapeRank(shapes[i].name) < 2):
             continue
         
-        nameSet = set(shapes[i].name.split('_'))
+        nameSet = set(shapes[i].name.lower().split('_'))
         
         for j in range(i + 1, len(shapes)): 
             
             if (GetShapeRank(shapes[j].name) < 2):
                 continue
             
-            searchNameSet = set(shapes[j].name.split('_'))
+            searchNameSet = set(shapes[j].name.lower().split('_'))
             
             if (nameSet == searchNameSet):
                 print ('Ambiguous corrective shapes found: %s and %s!' %
