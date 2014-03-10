@@ -117,6 +117,7 @@ def PreprocessMesh(meshName, scriptFile = None):
     else:
         maxRank = 1
         for shape in mesh_out.data.shape_keys.key_blocks:
+            shape.value = 0.0
             if (shapescripting.SELECTOR_PREFIX in shape.name):
                 DebugPrint("Removing selector %s" % shape.name)
                 RemoveShapeKey(mesh_out, shape.name)
@@ -137,8 +138,7 @@ def PreprocessMesh(meshName, scriptFile = None):
                     DebugPrint('Converted %s to relative' % shape.name, 2)
             deltaTime = GetMillisecs() - rankStartTime
             DebugPrint('Rank %i took %i msec, avg %i msec' % (i, deltaTime, deltaTime / rankShapeCount))       
-                  
-    
+
     for key in mesh_out.data.shape_keys.key_blocks:
         key.value = 0.0
               
