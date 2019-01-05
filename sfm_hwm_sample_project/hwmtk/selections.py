@@ -130,6 +130,11 @@ def BuildSoftSelection(bmesh_in, vtx_weight_dict, falloff_distance, falloff_type
          
     pre_step_dict = dict()    
     distance = dict() # index = distance
+    
+    # something something post 2.79 
+    if hasattr(bmesh_in.verts, "ensure_lookup_table"):
+        bmesh_in.verts.ensure_lookup_table()
+        
     while True:
         # 0. Determine vertices that are 'new' from the last iteration to speed up (could iterate over all vertices -- is this really a speedup?)
         # NB: On fist iteration, they will all be 'new'
